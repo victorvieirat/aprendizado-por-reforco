@@ -1,0 +1,13 @@
+name,last_5%_train_reward,last_5%_test_reward,last_5%_length,last_5%_training_error,max_episodes,start_epsilon,final_epsilon,learning_rate,discount_factor,double_q,results_path
+CartPole-v1,107.208,280.38,107.208,6337.4790407562605,10000,1,0.1,0.01,0.99,True,results/CartPole-v1-10000-100-10-10000-99-True
+CartPole-v1,191.228,141.04,191.228,290371714333730.0,10000,1,0.1,0.01,0.99,False,results/CartPole-v1-10000-100-10-10000-99-False
+MountainCar-v0,-163.964,-169.0,163.964,2.421266800971793,10000,1,0.1,0.01,0.99,True,results/MountainCar-v0-10000-100-10-10000-99-True
+MountainCar-v0,-198.566,-200.0,198.566,19.414244191083547,10000,1,0.1,0.01,0.99,False,results/MountainCar-v0-10000-100-10-10000-99-False
+CartPole-v1,294.846,500.0,294.846,12.04505996824872,10000,1,0.05,0.0001,0.99,True,results/CartPole-v1-10000-100-5-100-99-True
+CartPole-v1,127.154,107.03999999999999,127.154,18506.81699319722,10000,1,0.05,0.0001,0.99,False,results/CartPole-v1-10000-100-5-100-99-False
+MountainCar-v0,-111.942,-104.3,111.942,0.284257205681017,10000,1,0.05,0.0001,0.99,True,results/MountainCar-v0-10000-100-5-100-99-True
+MountainCar-v0,-115.76,-117.4,115.76,0.2958909050562864,10000,1,0.05,0.0001,0.99,False,results/MountainCar-v0-10000-100-5-100-99-False
+CartPole-v1,9.52,9.32,9.52,18.21072784447458,10000,1,0.01,1e-06,0.99,True,results/CartPole-v1-10000-100-1-1-99-True
+CartPole-v1,13.844,20.5,13.844,36.21904472148683,10000,1,0.01,1e-06,0.99,False,results/CartPole-v1-10000-100-1-1-99-False
+MountainCar-v0,-200.0,-200.0,200.0,24.036088799210514,10000,1,0.01,1e-06,0.99,True,results/MountainCar-v0-10000-100-1-1-99-True
+MountainCar-v0,-200.0,-200.0,200.0,23.376397355236104,10000,1,0.01,1e-06,0.99,False,results/MountainCar-v0-10000-100-1-1-99-False
