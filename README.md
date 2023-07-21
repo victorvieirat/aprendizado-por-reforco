@@ -37,7 +37,7 @@ Diversos variações houveram porém as melhores seja para o Cart pole ou seja p
 
 ### Gráficos do Resultado
 
-<img src="classic/bestmountain.png"  width="500" alt="bestmountain">       
+<img src="classic/bestmountain.png"  width="1000" alt="bestmountain">       
 
 Ao analisar o desempenho do modelo Double Deep Q-learning no ambiente Mountain Car, observamos uma grande mudança no início do treinamento, com alta variabilidade e exploração. No entanto, na segunda metade do treinamento, o desempenho aparenta estabilizar apesar de pelos gif não ser possível observar uma mudança significativa de estratégia, evidenciando uma melhoria na estabilidade e na capacidade de obter recompensas mais altas.Vale ressaltar que essa análise é relevante considerando que o modelo utilizado é o Double Deep Q-learning.
 
@@ -76,7 +76,7 @@ Em ordem os próximos 2 melhores depois dessa configuração foi:
 
 ### Gráficos do Resultado
 
-<img src="classic/bestcar.png"  width="500" alt="bestmountain">   
+<img src="classic/bestcar.png"  width="1000" alt="bestmountain">   
 
 
 No ambiente do Cart Pole, utilizando o modelo Double Deep Q-learning, foi observada uma melhora significativa no desempenho do agente a partir da metade do treinamento até o final. Essa evolução mais acentuada indica que o agente alcançou um ponto crítico de aprendizado, onde suas decisões e ações se tornaram mais consistentes e eficazes. Isso pode ser atribuído à capacidade do modelo em explorar estratégias melhores para maximizar as recompensas nesse ambiente específico.
@@ -151,7 +151,7 @@ A arquitetura combina camadas convolucionais para capturar características visu
 
 Essa estrutura foi projetada especificamente para o ambiente do Space Invaders, buscando extrair informações relevantes da imagem do jogo e permitir a tomada de decisões adequadas para maximizar as recompensas ao longo do treinamento.
 
-<img src="atari/atari.png"  width="500" alt="bestmountain">   
+<img src="atari/atari.png"  width="1000" alt="bestmountain">   
 
 No ambiente do Atari Space Invaders, os resultados obtidos foram inconclusivos, apesar de um aumento notável na recompensa ao longo do treinamento em análise a longo prazo. No entanto, esse aumento ainda não foi suficiente para atingir o desempenho desejado. Diante dessa situação, é evidente que será necessário estender o tempo de treinamento além do limite de GPU disponível pelas plataformas mencionadas anteriormente.
 
